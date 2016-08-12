@@ -4,16 +4,21 @@ class SquareRoot
 {
     static void Main()
     {
-        Console.WriteLine(2);
-        Console.WriteLine(-3);
-        Console.WriteLine(4);
-        Console.WriteLine(-5);
-        Console.WriteLine(6);
-        Console.WriteLine(-7);
-        Console.WriteLine(8);
-        Console.WriteLine(-9);
-        Console.WriteLine(10);
-        Console.WriteLine(-11);
+        Console.WriteLine("2, -3, 4, -5, 6, -7, 8, -9, 10, -11");
+        Console.WriteLine();
+        //write in the program
+        //write a program - напиши програма
+        //member - член 
+        int numbers = 3;
+        Console.Write(2);
+
+        for (int i = 0; i < 500; i++)
+        {
+            Console.Write("GoodNight!!!  ");
+        }
+        Console.WriteLine();
+
+
     }
 }
 

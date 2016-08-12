@@ -1,28 +1,19 @@
 ﻿using System;
 
 
-    class hoRRiblEcoDe
+class hoRRiblEcoDe
+{
+static void Main()
     {
-        static void
-      
-            Main()
-        {
-            Console.
+        Console.WriteLine("Hi, I am horribly formatted program");
+        Console.WriteLine("Numbers and squares:");
 
-        WriteLine("Hi, I am horribly formatted program"
-    ); Console.
-          WriteLine("Numbers and squares:")
-    ; for (int i = 0;
-    i < 10;
-    i++)
-            {
-                Console.WriteLine(i +
-                    " --> " + i
-                    *
-                    i);
-            }
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(i + " --> " + i * i);
         }
     }
+}
 
-    
+
 
